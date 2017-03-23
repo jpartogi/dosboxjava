@@ -1,8 +1,8 @@
 apply plugin: 'java'
-apply plugin:'application'
+apply plugin: 'application'
 mainClassName = "dosbox.Program"
 
-defaultTasks 'clean', 'run'
+defaultTasks 'clean', 'build'
 
 dependencies {
     compile fileTree(dir: 'lib', include: '*.jar')
